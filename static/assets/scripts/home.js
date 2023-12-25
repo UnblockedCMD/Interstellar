@@ -12,7 +12,7 @@ if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     else {
         popup.document.write(`
             <iframe src="${location.href}" style="position:fixed;top:0;left:0;width:100%;height:100%;outline:none;border:none;"></iframe>
-            <title>${localStorage.getItem('name') || 'My Drive - Google Drive'}</title>
+            <title>${localStorage.getItem('name') || 'CMD Games Proxy'}</title>
             <link rel="icon" href="${localStorage.getItem('icon') || 'https://ssl.gstatic.com/assets/media/branding/product/1x/drive_2020q4_32dp.png'}">
         `);
     
